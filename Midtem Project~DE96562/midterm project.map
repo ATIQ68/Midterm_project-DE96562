@@ -1,0 +1,134 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Nov 27 12:41:43 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x00032e
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x000345      
+            822 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            PORTsend_data   0x000056    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   again1   0x00001e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   again2   0x000022    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd#   0x0001fe    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd0   0x000138    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd1   0x00014a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd2   0x00015c    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd3   0x00016e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd4   0x000180    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd5   0x000192    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd6   0x0001a4    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd7   0x0001b6    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd8   0x0001c8    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd9   0x0001da    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 bcd_star   0x0001ec    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                check_PB1   0x000336    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                check_PB2   0x00033e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+            clear_display   0x000080    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                configure   0x000278    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+              configurePB   0x00004e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+         configure_keypad   0x000272    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+              delay10msec   0x00001a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   matrix   0x00006e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                    my_id   0x000106    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  my_name   0x000094    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                      off   0x000210    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  off_LCD   0x00021a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 off_LCD1   0x000222    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 progress   0x00022a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                progress1   0x000240    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+              second_line   0x00007a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 setupLCD   0x000060    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                setupLCD1   0x000086    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 setup_PB   0x00032e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   show_#   0x000324    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   show_0   0x00031a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd1   0x0002b6    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd2   0x0002c0    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd3   0x0002ca    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd4   0x0002d4    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd5   0x0002de    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd6   0x0002e8    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd7   0x0002f2    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd8   0x0002fc    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd9   0x000306    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  show_id   0x000268    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_name   0x00025e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_star   0x000310    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                    start   0x000298    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  turn_on   0x000074    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              delay10msec   0x00001a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   again1   0x00001e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   again2   0x000022    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+              configurePB   0x00004e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+            PORTsend_data   0x000056    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 setupLCD   0x000060    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   matrix   0x00006e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  turn_on   0x000074    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+              second_line   0x00007a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+            clear_display   0x000080    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                setupLCD1   0x000086    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  my_name   0x000094    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                    my_id   0x000106    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd0   0x000138    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd1   0x00014a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd2   0x00015c    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd3   0x00016e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd4   0x000180    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd5   0x000192    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd6   0x0001a4    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd7   0x0001b6    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd8   0x0001c8    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd9   0x0001da    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 bcd_star   0x0001ec    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                     bcd#   0x0001fe    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                      off   0x000210    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  off_LCD   0x00021a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 off_LCD1   0x000222    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 progress   0x00022a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                progress1   0x000240    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_name   0x00025e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                  show_id   0x000268    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+         configure_keypad   0x000272    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                configure   0x000278    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                    start   0x000298    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd1   0x0002b6    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd2   0x0002c0    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd3   0x0002ca    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd4   0x0002d4    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd5   0x0002de    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd6   0x0002e8    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd7   0x0002f2    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd8   0x0002fc    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_bcd9   0x000306    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                show_star   0x000310    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   show_0   0x00031a    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                   show_#   0x000324    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                 setup_PB   0x00032e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                check_PB1   0x000336    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+                check_PB2   0x00033e    program     static H:\Introduction to Microcontroller\Midtem Project~DE96562\midterm project.asm
+
+
